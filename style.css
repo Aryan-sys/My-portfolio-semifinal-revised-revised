@@ -1,0 +1,91 @@
+h1 {
+
+    text-decoration: violet;
+text-align : center;
+    color: whitesmoke;
+    margin-left : 500px;
+    transition: ease-in, 2s;
+ 
+}
+.header {
+    display : flex;
+        justify-content: space-between;
+    
+  background-image: url("1.jpg");
+  font-family: serif;
+ font-variant: small-caps;
+ font-size: xx-large;
+ font-display: large;
+ transition: color, 5s, linear, 1s;;
+}
+
+
+.grid {
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-image: url("9.jpg");
+    
+    transition: color, 2s, linear, 1s;;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    transition: color, 2s, linear, 1s;;
+
+}
+p, h2 {
+    text-align: center;
+    transition: color, 2s, linear, 1s;;
+    font-style: oblique;
+  
+}
+.end { 
+    
+    transition: color, 2s, linear, 1s;;
+}
+.content{
+    
+    transition: color, 2s, linear, 1s;;
+}
+.item{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    image-resolution: 300dpi;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+ background-image: url("9.jpg");   
+ color : whitesmoke;
+ transition: color, 2s, linear, 1s;;
+ font-display: large;
+ font-size: 25px;
+ font-family: 'Courier New', Courier, monospace;
+}
+.e{
+    display: flex;
+    flex-wrap: wrap;
+    transition: color, 2s, linear, 1s;;  
+    color : whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("4.jpg");
+}
+.special{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("2.jpg");
+    color: whitesmoke;
+    font-size: 25px;
+}
+.extra{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique; 
+    color: red;
+    background-image: url("10.jpg");
+}
+.previous{
+    background-image: url("12.png");
+}
